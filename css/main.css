@@ -7,7 +7,7 @@ body{
     height: 100vh;
     overflow: hidden;
     /* margin: 0; */
-    background-color: #e3ffff;
+    background-color: black;
     background-position: center;
     /* background-size: cover; */
     flex-direction: column;
@@ -15,9 +15,10 @@ body{
 .logo{
     width: 275px;
     height: 275px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4px;
+    border-radius: 50px;
 }
 }
 h2{
@@ -61,7 +62,7 @@ ul li label{
     font-size: 25px;
 }
 button{
-    background-color: #ffa600;
+    background-color: yellow;
     border: none;
     display: block;
     width: 100%;
@@ -74,11 +75,11 @@ button{
     transition: all 0.5s ease;
 }
 button:hover{
-    background-color: #ffa600;
+    background-color: #FFD700;
 }
 button:focus{
     outline: none;
-    background-color: #ffa600;
+    background-color: #FFD700;
 }
 h1{
    background-color: yellow;
@@ -119,7 +120,7 @@ input[type='radio']::before {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  border: 3px solid #ffa600;
+  border: 3px solid yellow;
 
 }
 
@@ -131,7 +132,7 @@ input[type='radio']:checked::after {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #ffa600;
+  background-color: yellow;
   transform: translate(-50%, -50%);
   visibility: visible;
 }
@@ -139,8 +140,8 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: #ffa600;
+    color: yellow;
 }
 a:hover {
-    color: #ffa600;
+    color: yellow;
 }
